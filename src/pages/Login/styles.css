@@ -1,0 +1,45 @@
+.title{
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 25vh ;
+}
+
+form {
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 25vh ;
+
+
+} 
+
+ form input {
+    position: relative;
+    top: 25vh ;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+    border-bottom: solid lightgray 3px;
+
+} 
+
+
+button {
+    font-size: 20px;
+    color: snow;
+    text-decoration: none;
+    cursor: pointer;
+    width: 30vw;
+    height: 50px;
+    border: none;
+    background-color: #00a8aa;
+    text-align: center;
+    position: relative;
+    top: 25vh ;
+}
+
+button:hover {
+    background-color: #037c7e;
+}
