@@ -1,0 +1,47 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  background-color: #d8d8d8;
+  margin-bottom: 3vh;
+  padding: 2vh 2vw;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.Post .info {
+  display: flex;
+  align-items: center;
+}
+.Post .info img {
+  border-radius: 50%;
+  height: 4vh;
+  margin-right: 2vh;
+}
+.Post .container h3 {
+  padding-top: 1.5vh;
+  border-bottom: 2px solid #00a8aa;
+}
+.Post .container p {
+  padding: 1vh 1vw;
+}
+.Post .bottom {
+  display: flex;
+  align-items: center;
+}
+.Post .btn {
+  margin-left: 1vw;
+  display: flex;
+  align-items: center;
+  padding: 0.5vh 0.5vw;
+  background-color: #9d9d9d;
+  border-radius: 16px;
+}
+.Post .btn img {
+  height: 3vh;
+}
+.Post .btn img.heart {
+  margin-left: 1vh;
+}
+.Post .bottom .btn:hover {
+  background-color: #7d7d7d;
+}
